@@ -15,7 +15,9 @@ while b - a > eps
     end
 end
 f_x_min = f(middle);
+disp('Точка минимума =');
 disp(middle);
+disp('Значение функции в точке минимума =');
 disp(f_x_min);
 end
 
